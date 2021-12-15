@@ -1,0 +1,93 @@
+@import "./reset.css";
+@import "./global.css";
+.mini__section__header {
+  background-image: url(../images/studentbg.jpg);
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  box-shadow: inset 0em 0em 0em 20em rgba(0, 0, 0, 0.6);
+}
+
+.students__header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: -110px;
+}
+
+.students__header .students__header--text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #222222;
+  margin-right: 10px;
+}
+
+.students__searchbar {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 8px;
+  top: -50px;
+  color: #3360ff;
+}
+
+.students__searchbar .students__input__wrapper {
+  position: relative;
+}
+
+.students__input__wrapper ion-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+}
+
+.students__input__wrapper input {
+  text-align: end;
+  width: 222px;
+  height: 40px;
+  border: 2px solid #3360ff;
+  padding-right: 10px;
+  font-family: "NanumSquare", sans-serif;
+  
+}
+
+.students__profiles {
+  width: 1180px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 80px;
+  column-gap: 120px;
+  margin-bottom: 200px;
+  position: relative;
+  padding-top: 40px;
+  margin-top: 220px;
+}
+
+.students__profiles .students__profile {
+  text-align: center;
+}
+
+.students__profile:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.students__profile img {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.students__profile h2 {
+  font-size: 22px;
+  font-weight: 400;
+}

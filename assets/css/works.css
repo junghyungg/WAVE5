@@ -1,0 +1,58 @@
+@import "./reset.css";
+@import "./global.css";
+
+.mini__section__header {
+  background-image: url(../images/workbg.jpg);
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  box-shadow: inset 0em 0em 0em 20em rgba(0, 0, 0, 0.6);
+}
+
+.swiper-slide img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.freemode__container {
+  margin-bottom: 150px;
+}
+
+.filter__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter__header {
+  margin-bottom: 80px;
+}
+
+.filter__header .filter__btn {
+  width: 120px;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #444444;
+  background-color: white;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.filter__header .filter__selected {
+  background-color: #3360ff;
+  color: white;
+  border: 1px solid transparent;
+}
+
+.filter__header .filter__btn:nth-child(3) {
+  margin-right: 0px;
+}

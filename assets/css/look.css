@@ -1,0 +1,147 @@
+@import "./reset.css";
+@import "./global.css";
+
+.mini__section__header {
+  background-image: url(../images/lookbg.jpg);
+  width: 100%;
+  height: 360px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+  opacity: 0.8;
+  box-shadow: inset 0em 0em 0em 20em rgba(0, 0, 0, 0.6);
+}
+
+#makes .look__types {
+  margin: 0px 330px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+
+.look__types .look--btn {
+  all: unset;
+  width: 120px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  color: #444444;
+  font-weight: 700;
+  border: 1px solid #000000;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.look__types .look--btn:last-child{
+  margin-right:0;
+}
+
+.look--btn.selected__look--btn {
+  border: 1px solid transparent;
+  color: white;
+  font-weight: 700;
+  background-color: #3360ff;
+}
+
+.download{
+  width: 1180px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.download .down{
+  width: 40px;
+  height: 40px;
+  float: right;
+  
+}
+.look__contents {
+  width: 1180px;
+  height: 480px;
+  margin: 0 auto;
+  border: 2px solid #e2dddd;
+  border-bottom: none;
+  margin-bottom: 150px;
+}
+
+.look__contents img {
+  width: 100%;
+  height: 410px;
+  object-fit: contain;
+}
+
+.look__toggle__box {
+  display: flex;
+}
+
+.look__toggle__box button {
+  all: unset;
+  height: 62px;
+  text-align: center;
+  width: 50%;
+  border-top: 2px solid #e2dddd;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  border-bottom: 2px solid #e2dddd;
+  cursor: pointer;
+}
+
+.look__toggle__box .selected__large--btn {
+  background-color: #3360ff;
+  color: white;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.look__header {
+  width: 1180px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.look__header .look__header--text {
+  font-size: 22px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.look__contents.show {
+  animation: in 700ms ease both;
+}
+
+.look__contents.hidden {
+  animation: out 700ms ease both;
+}
+
+.books__header {
+  width: 1180px;
+}
+
+.recommend__books {
+    width: 1180px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+    margin-bottom: 100px;
+    position: relative;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.recommend__books .recommend__book {
+  text-align: center;
+}
+
+.recommend__books img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+}

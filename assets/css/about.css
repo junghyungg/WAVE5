@@ -1,0 +1,61 @@
+@import "./reset.css";
+@import "./global.css";
+
+.container {
+  height: 600px;
+  text-align: center;
+  width: 100%;
+  background-image: url('https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+  background-size: cover;
+  background-position: center center;
+ position: relative;
+ margin: auto;
+
+}
+
+.container h1 {
+ width: 800px;
+ display: inline-block;
+ vertical-align: middle;
+ font-family: "NanumSquare", sans-serif;
+ color: white;
+ font-size: 52px;
+ font-style: normal;
+ font-weight: bold;
+ font-stretch: normal;
+ line-height: 93.6px;
+ margin-top: 150px;
+ }
+
+.icon-container{
+position: absolute;
+bottom: 97px;
+left: 50%;
+}
+
+
+.container2 {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.intro {
+width: 1180px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.container2 h4 {
+width: 1160px;
+font-family: "NanumSquare" serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: -0.05em;
+color: #989898;
+text-align: center;
+}
